@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #d2dbdd;
+}
+
+.heading_style{
+  padding: 30px 0;
+  text-align: center;
+  font-family:'Roboto', sans-serif ;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom:30px;
+}
+
+.slot_inner{
+  text-align: center;
+  font-size: 10px;
+}
+
+.slotMachine{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 30%;
+  border: 3px solid grey;
+  line-height: 30px;
+  margin-left: 35%;
+  border-radius: 1px;
+  margin-top: 40px;
+}
+
